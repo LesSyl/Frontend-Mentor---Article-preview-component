@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Article preview component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="dist/css/main.min.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <article class="article">
+            <section class="article__section-img">
+                <img src="dist/img/drawers.jpg"
+                    alt="A green dresser against a brick wall painted white with two frames and a vase."
+                    class="article__section-img-drawers">
+            </section>
+            <section class="article__section">
+                <div class="article__section-text">
+                    <h1 class="article__section-text-title">Shift the overall look and feel by adding these wonderful
+                        touches to
+                        furniture in your home</h1>
+                    <p class="article__section-text-description"> Ever been in a room and felt like something was
+                        missing?
+                        Perhaps
+                        it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel
+                        complete.</p>
+                </div>
+                <div class="author">
+                    <img src="dist/img/avatar-michelle.jpg"
+                        alt="Article author's photo of Michelle Appleton. A woman with long brown hair wearing a white blouse and brown jacket."
+                        class="author__img">
+                    <div class="author__info">
+                        <h2 class="author__info-name">Michelle Appleton</h2>
+                        <p class="author__info-date">28 Jun 2020</p>
+                    </div>
+                </div>
+
+                <button class="button"><img src="dist/img/icon-share.svg"
+                        alt="Arrow opening balloon with icons for social media."></button>
+
+                <button class="bubble__button"><img src="dist/img/icon-share2.svg"
+                        alt="Arrow opening balloon with icons for social media."></button>
+
+
+
+
+                <div class="active">
+                    <p class="active__share">Share</p>
+                    <a href="https://www.facebook.com/" class="active__share-media"><img
+                            src="dist/img/icon-facebook.svg" alt="facebook icon"></a>
+                    <a href="https://x.com/" class="active__share-media"><img src="dist/img/icon-twitter.svg"
+                            alt="Twitter icon"></a>
+                    <a href="https://pl.pinterest.com/" class="active__share-media"><img
+                            src="dist/img/icon-pinterest.svg" alt="Pinterest icon"></a>
+                    <button class="active__button"><img src="dist/img/icon-share2.svg"
+                            alt="Arrow opening balloon with icons for social media."></button>
+                </div>
+                <div class="bubble">
+                    <p class="bubble__share">Share</p>
+                    <a href="https://www.facebook.com/" class="bubble__share-media"><img src="dist/img/icon-facebook.svg"
+                            alt="facebook icon"></a>
+                    <a href="https://x.com/" class="bubble__share-media"><img src="dist/img/icon-twitter.svg"
+                            alt="Twitter icon"></a>
+                    <a href="https://pl.pinterest.com/" class="bubble__share-media"><img src="dist/img/icon-pinterest.svg"
+                            alt="Pinterest icon"></a>
+                    <div class="bubble__triangle"></div>
+                </div>
+            </section>
+        </article>
+    </div>
+
+
+    <!-- @include "footer.kit" -->
+    <script src="dist/js/main.min.js"></script>
+</body>
+
+</html>
