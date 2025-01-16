@@ -30,8 +30,8 @@ Mobile
 ### Links
 
 - Repository URL:[GitHub](https://github.com/LesSyl/Article-preview-component)
-- Solution URL: [Frontendmentor]()
-- Live Site URL: [Live](https://lessyl.github.io/Article-preview-component/)
+- Solution URL: [Frontendmentor](https://www.frontendmentor.io/solutions/frontend-mentor---article-preview-component-solution-kld7qOJZiF)
+- Live Site URL: [Live](https://lessyl.github.io/Frontend-Mentor---Article-preview-component/)
 ## My process
 
 ### Built with
